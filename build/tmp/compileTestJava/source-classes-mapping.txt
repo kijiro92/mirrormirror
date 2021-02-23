@@ -1,0 +1,12 @@
+com/swingrove/mirror/controllers/HelloControllerTest.java
+ com.swingrove.mirror.controllers.HelloControllerTest
+com/swingrove/mirror/MirrorApplicationTests.java
+ com.swingrove.mirror.MirrorApplicationTests
+com/swingrove/mirror/services/ClockServiceTest.java
+ com.swingrove.mirror.services.ClockServiceTest
+com/swingrove/mirror/services/HelloServiceTest.java
+ com.swingrove.mirror.services.HelloServiceTest
+com/swingrove/mirror/controllers/WeatherControllerTest.java
+ com.swingrove.mirror.controllers.WeatherControllerTest
+com/swingrove/mirror/services/WeatherServiceTest.java
+ com.swingrove.mirror.services.WeatherServiceTest

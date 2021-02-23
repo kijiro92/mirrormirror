@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: mirror
+#    jpa:
+#        hibernate:
+#            ddl-auto=update
+#    flyway:
+#        locations: classpath:db/migration
+    main:
+        allow-bean-definition-overriding: true
+#    datasource:
+#        url: jdbc:mysql://localhost:3306/mirror_db?serverTimezone=UTC
+#        username: root
+#        password: pass

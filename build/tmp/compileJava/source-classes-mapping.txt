@@ -1,0 +1,20 @@
+com/swingrove/mirror/models/WeatherProperties.java
+ com.swingrove.mirror.models.WeatherProperties
+com/swingrove/mirror/models/WeatherPeriod.java
+ com.swingrove.mirror.models.WeatherPeriod
+com/swingrove/mirror/MirrorApplication.java
+ com.swingrove.mirror.MirrorApplication
+com/swingrove/mirror/models/WeatherResponse.java
+ com.swingrove.mirror.models.WeatherResponse
+com/swingrove/mirror/services/WeatherService.java
+ com.swingrove.mirror.services.WeatherService
+com/swingrove/mirror/services/HelloService.java
+ com.swingrove.mirror.services.HelloService
+com/swingrove/mirror/controllers/WeatherController.java
+ com.swingrove.mirror.controllers.WeatherController
+com/swingrove/mirror/config/RestTemplateConfig.java
+ com.swingrove.mirror.config.RestTemplateConfig
+com/swingrove/mirror/controllers/HelloController.java
+ com.swingrove.mirror.controllers.HelloController
+com/swingrove/mirror/services/ClockService.java
+ com.swingrove.mirror.services.ClockService

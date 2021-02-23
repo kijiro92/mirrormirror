@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: mirror
+  jpa:
+    hibernate:
+      ddl-auto=update
+  flyway:
+    locations: classpath:db/migration
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/${DB_NAME}?serverTimezone=UTC
+    username: ${DB_USER}
+    password: ${DB_PASS}
+  cloud:
+    gcp:
+      logging:
+        enabled: false
+      trace:
+        enabled: false
+      project-id: fake-project-id
