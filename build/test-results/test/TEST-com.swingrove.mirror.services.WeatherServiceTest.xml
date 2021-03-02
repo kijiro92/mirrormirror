@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.swingrove.mirror.services.WeatherServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-11T03:55:04" hostname="stevens-mbp.lan" time="1.851">
-  <properties/>
-  <testcase name="getWeather_whenApiServiceWorks_returnsTemperature()" classname="com.swingrove.mirror.services.WeatherServiceTest" time="1.851"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -4,7 +4,7 @@ import com.swingrove.mirror.services.HelloService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/api/hello")
+//@RestController("/api/hello")
 public class HelloController {
     private final HelloService myHelloService;
 
@@ -12,7 +12,7 @@ public class HelloController {
         this.myHelloService = myHelloService;
     }
 
-    @GetMapping
+//    @GetMapping
     public String print() {
         return myHelloService.print();
     }

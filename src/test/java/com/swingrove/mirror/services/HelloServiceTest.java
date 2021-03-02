@@ -14,7 +14,7 @@ class HelloServiceTest {
     }
     @Test
     public void printsHelloTest() {
-        assertEquals("Hello", helloService.print());
+        assertEquals("Hello World", helloService.print());
 
     }
 }
