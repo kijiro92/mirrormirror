@@ -4,13 +4,15 @@ import './App.css';
 
 function App() {
 
-  const [weather, setWeather] = useState("");
-
-  fetch("/weather").then((response) => {
-    response.text().then((body) => {
-      setWeather(body);
-    });
-  });
+  const [weather, setWeather] = useState("--º");
+  function setTheState (body: string): void {
+    setWeather(body);
+  }
+  function readTheResponse (response: Response): void {
+    response.text().then(setTheState).catch();
+  }
+  let promise = fetch("/weather")
+  promise.then(readTheResponse).catch();
   return (
     <div className="App">
       <header className="App-header">
@@ -19,10 +21,9 @@ function App() {
             <img src={logo} className="WeatherLogo" alt="logo" />
           </div>
           <div className={"WeatherText"}>
-            {weather}
+            {weather+"º"}
           </div>
         </div>
-
         <a
           className="App-link"
           href="https://reactjs.org"
