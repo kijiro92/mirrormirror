@@ -1,8 +1,7 @@
 package com.swingrove.mirror.services;
 
 
-import com.swingrove.mirror.models.WeatherResponse;
-import org.bouncycastle.util.Strings;
+import com.swingrove.mirror.models.weather.WeatherResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

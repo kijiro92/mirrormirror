@@ -1,26 +1,26 @@
 package com.swingrove.mirror.services;
 
 
-import com.swingrove.mirror.models.WeatherResponse;
-import org.bouncycastle.util.Strings;
+import com.swingrove.mirror.models.calendar.CalendarResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+
 @Service
-public class WeatherService {
+public class CalendarService {
     private final RestTemplate restTemplate;
 
-    public WeatherService(RestTemplate restTemplate) {
+    public CalendarService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 
-    public int getWeather() {
-        String url = "https://api.weather.gov/gridpoints/LWX/104,82/forecast";
-        ResponseEntity<WeatherResponse> response = restTemplate.getForEntity(url, WeatherResponse.class);
-        WeatherResponse responseBody = response.getBody();
+    public int getCalendar() {
+        String url = "https://www.googleapis.com/calendar/v3/calendars/stevenwingrove80@gmail.com/events";
+        ResponseEntity<CalendarResponse> response = restTemplate.getForEntity(url, CalendarResponse.class);
+        CalendarResponse responseBody = response.getBody();
         if (responseBody != null) {
-            return responseBody.properties.periods.get(0).temperature;
+            responseBody.items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0).items.get(0);
         }
         return -202929;
     }

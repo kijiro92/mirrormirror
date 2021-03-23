@@ -1,8 +1,8 @@
 package com.swingrove.mirror.services;
 
-import com.swingrove.mirror.models.WeatherPeriod;
-import com.swingrove.mirror.models.WeatherProperties;
-import com.swingrove.mirror.models.WeatherResponse;
+import com.swingrove.mirror.models.weather.WeatherPeriod;
+import com.swingrove.mirror.models.weather.WeatherProperties;
+import com.swingrove.mirror.models.weather.WeatherResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,4 +1,6 @@
-package com.swingrove.mirror.models;
+package com.swingrove.mirror.models.weather;
+
+import com.swingrove.mirror.models.weather.WeatherPeriod;
 
 import java.util.List;
 

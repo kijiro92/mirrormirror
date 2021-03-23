@@ -1,5 +1,14 @@
-package com.swingrove.mirror.models.weather;
+package com.swingrove.mirror.models.calendar;
 
-public class WeatherResponse {
-    public WeatherProperties properties;
+import com.swingrove.mirror.models.weather.WeatherProperties;
+
+import java.util.List;
+
+public class CalendarResponse {
+    public List<CalendarItem> summary;
 }
+//items
+//summary
+//location
+//start
+//end
